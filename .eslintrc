@@ -2,6 +2,7 @@
   "extends": "airbnb",
   "globals": {
     "test": false,
-    "expect": false
+    "expect": false,
+    "describe": false
   }
 }
