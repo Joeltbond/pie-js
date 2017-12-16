@@ -39,12 +39,11 @@ describe('Stack', () => {
     expect(stack.pop()).toBe(null);
   });
 
-  test('toArray returns', () => {
+  test('toArray returns an array of the lists data', () => {
     const stack = new Stack();
     stack.push(1);
     stack.push(2);
 
-    expect(stack.toArray()).toEqual([1,2]);
-
+    expect(stack.toArray()).toEqual([1, 2]);
   });
 });
